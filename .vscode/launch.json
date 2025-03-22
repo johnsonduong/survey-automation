@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Selenium Script",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/survey_script.py",
+            "console": "integratedTerminal",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            },
+            "justMyCode": true,
+            "stopOnEntry": false,
+            "python": "${workspaceFolder}/venv/bin/python" // Specify your venv's Python path here (Mac/Linux)
+        }
+    ]
+}
